@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>UKI stepping stone to success</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#flip").click(function(){
+        $("#panel").slideDown("slow");
+    });
+});
+</script>
+<script>
+$(document).ready(function(){
+$("#p1").mouseenter(function(){
+alert("You are in UKI");
+   });
+});
+
+</script>
+<script>
+$(document).ready(function(){
+    $("#hide").click(function(){
+        $("li").hide();
+    });
+    $("#show").click(function(){
+        $("li").show();
+    });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+    $("h3").on({
+        mouseenter: function(){
+            $(this).css("background-color", "lightgray");
+        },
+        mouseleave: function(){
+            $(this).css("background-color", "lightblue");
+        },
+        click: function(){
+            $(this).css("background-color", "yellow");
+        }
+    });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+    $("#van").click(function(){
+        $("#ja").hide(1000);
+    });
+});
+</script>
+
+<style>
+#panel, #flip {
+    padding: 5px;
+    text-align: center;
+    background-color: #d1d2d3;
+    margin-top: 30px;
+
+    border: solid 1px #c3c3c3;
+}
+
+#panel {
+    padding: 50px;
+    display: none;
+}
+</style>
+
+  </head>
+  <body>
+    <div id="main-container">
+
+      <div class="header">
+        <div class="header-link">
+          <a href="#">Home</a>
+          <a href="form.html">Form</a>
+          <a href="timetable.html">Timetable</a>
+        </div>
+      </div>
+
+
+      <div class="main-image">
+        <div class="image-style">
+          <img src="/home/ukistu04/Downloads/uki-step.png" alt="STEPPING_STONE">
+        </div>
+      </div>
+      <div id="flip">Welcome Uki</div>
+<div id="panel">Hey Uki...!!!</div>
+      <div class="main-content">
+        <div class="content-one">
+
+
+          <h3>Welcome to Uki: Stepping stone to tech life</h3>
+
+          <p id="p1">It is a full scholarship based Accelerator program for Coding in Jaffna,
+                     Sri Lanka targeting students who has completed Advanced Level examinations and
+                     don’t have access to university education or any other form of vocational education.
+                     It is aimed to provide the necessary training to enter Computer Software      		    industry or to start an IT startup.
+                     This is a joint initiative by Yarl IT Hub and SERVE Foundation. Yarl IT Hub has been
+                     functioning for the last five years as a not for profit social enterprise focusing on
+                    technology entrepreneurship in northern Sri Lanka and SERVE Foundation is a four year
+                   old foundation focusing on using technology to uplift secondary education standards in
+                   rural schools in northern Sri Lanka. </p><br>
+
+
+
+        </div>
+        <div class="content-two">
+            <h3>COURSE</h3>
+            <p>Our vision is to be a leading center of excellence in teaching,learing,research and scholarship.</p>
+            <ul>
+              <li>Programming</li>
+              <li>Basic Business Skills</li>
+              <li>Spoken English and Communication Skills.</li>
+              <li>Personal Coaching</li>
+            </ul>
+            <button id="hide">Hide</button>
+            <button id="show">Show</button>
+
+
+        </div>
+<div class="content-three">
+            <h3>COADING ACCELERATOR PROGRAMME</h3>
+            <p id="ja">This Coding Accelerator program is an intensive training on full-stack
+  development with server-side Node.js and modern, client-side, front-end libraries and frameworks.
+  Throughout this intensive course the student will study professional software development techniques
+  and practices as he/she advances his/her skills on JavaScript.
+<p id="van"><button >Hide</button></p>
+</p>
+
+        </div>
+
+      </div>
+
+
+      <div class="footer">
+        <div class="copyright">
+          <p>Copyright by Uki</p>
+        </div>
+        <div class="designedby">
+          <p>Designed by VANAJA</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

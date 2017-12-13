@@ -1,0 +1,62 @@
+
+
+
+table{
+    width: 1000px;
+    border: 1px solid black;
+    height: auto;
+    border-collapse: collapse;
+    font-family: "Times New Roman", Times, serif;
+    margin-top: 40px;
+  }
+  th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    height: 50px;
+  }
+  td{
+    border: 1px solid black;
+    height: 30px;
+    border-collapse: collapse;
+  }
+  caption{
+    caption-side:center;
+  }
+
+.numcol {
+  background-color: #4863A0;
+  width: 30px;
+}
+
+.firstline {
+  background-color: #3D43B5;
+}
+
+.purple{
+  background-color: #c702ef;
+}
+
+.green{
+  background-color: #02ef3d;
+  text-align: center;
+}
+
+.yellow{
+  background-color: #FFFF00;
+}
+
+.darkyellow{
+  background-color: #CC9900;
+}
+
+.red{
+  background-color: #f72c2c;
+}
+
+.lightred{
+  background-color: #FF6666;
+}
+
+.powderblue{
+  background-color: powderblue;
+}
